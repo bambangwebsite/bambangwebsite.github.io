@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://127.0.0.1:5500/Website_2/Website.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="./Website_files/style.css">
+    
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img src="./Website_files/logo.jpg" class="logo">
+                <nav>
+                    <ul id="menulist">
+                        <li><a href="file:///C:/Users/ASUS/Desktop/Websiite/Website_2/home.html">Masukan</a></li>
+                        <li><a onclick="alert(&#39;Mohon Maaf, Halaman ini belum tersedia!&#39;)">Kontak</a></li>
+                        <li><a href="https://www.tiktok.com/@imbambangasli" target="_blank">Media Sosial</a></li>
+                        <li><a href="https://saweria.co/Coklatt" target="_blank">Support</a></li>
+                        
+                    </ul>
+                </nav>
+                <img src="./Website_files/menu.png" class="menu-icon" onclick="togglemenu()">
+            </div>
+
+            <div class="row">
+                <div class="col-1">
+                  <h2>BIODATA</h2>
+                  <h3>Mohammad Rizky Putra Syaus</h3>
+                  <p>Kelas 6A</p>
+                  <h4>Selengkapnya</h4>
+                 <a style="text-decoration: none;" href="file:///C:/Users/ASUS/Desktop/Websiite/WebSite/home.html"><button type="button">Disini<img src="./Website_files/arrow.png"></button></a>
+                </div>
+
+                <div class="col-2">
+                  <img src="./Website_files/bambang.jpg" class="controller">
+                  
+                  <div class="add-btn">
+                    <img src="./Website_files/add.png">
+                    <p><small>Add to cart</small></p>
+                  </div>
+                </div>
+
+                
+            </div>
+            <div class="social-links">
+                <img src="./Website_files/fb.png">
+                <img src="./Website_files/ig.png">
+                <img src="./Website_files/tw.png">
+            </div>
+        
+    
+</div><!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
