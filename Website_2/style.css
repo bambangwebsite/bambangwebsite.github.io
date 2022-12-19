@@ -1,1 +1,99 @@
-alert anjai
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url(Background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.jamal{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+
+    background-color: rgba(0,0,0,.7);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);}
+
+.jamal  h1{
+        text-align: left;
+        color: #fafafa;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        border-bottom: 4px solid #2979ff;
+    }
+    .jamal2{
+        text-align: left;
+        color: #90caf9;
+    }
+.Bambang2{
+        width: calc(100% - 20px);
+        padding: 8px 10px;
+        margin-bottom: 15px;
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px solid #2979ff;
+        color: #fff;
+        font-size: 20px;}
+
+        .cssbuttons-io-button {
+            background: #2979ff;
+            color: white;
+            font-family: inherit;
+            padding: 0.35em;
+            padding-left: 1.2em;
+            font-size: 17px;
+            font-weight: 500;
+            border-radius: 0.9em;
+            border: none;
+            letter-spacing: 0.05em;
+            display: flex;
+            align-items: center;
+            box-shadow: inset 0 0 1.6em -0.6em #0a78d1;
+            overflow: hidden;
+            position: relative;
+            height: 2.8em;
+            padding-right: 3.3em;
+           }
+           
+           .cssbuttons-io-button .icon {
+            background: white;
+            margin-left: 1em;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 2.2em;
+            width: 2.2em;
+            border-radius: 0.7em;
+            box-shadow: 0.1em 0.1em 0.6em 0.2em #0a78d1 ;
+            right: 0.3em;
+            transition: all 0.3s;
+           }
+           
+           .cssbuttons-io-button:hover .icon {
+            width: calc(100% - 0.6em);
+           }
+           
+           .cssbuttons-io-button .icon svg {
+            width: 1.1em;
+            transition: transform 0.3s;
+            color: #0a78d1 ;
+           }
+           
+           .cssbuttons-io-button:hover .icon svg {
+            transform: translateX(0.1em);
+           }
+           
+           .cssbuttons-io-button:active .icon {
+            transform: scale(0.95);
+           }
+           
